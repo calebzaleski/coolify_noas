@@ -8,6 +8,6 @@ RUN npm install
 
 COPY index.js reasons.json ./
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD ["node", "index.js"]
